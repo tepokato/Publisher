@@ -1,0 +1,39 @@
+---
+description: Guía editorial y formato HTML para posts de ANXiNA (anxina.xyz) en Blogger
+alwaysApply: true
+---
+
+# Posts ANXiNA → Blogger
+
+Este proyecto redacta posts para https://www.anxina.xyz/. El usuario provee un `.txt` con información; entrega un `.html` listo para pegar en Blogger (vista HTML).
+
+## Editorial
+
+- **Tono**: cercano y conversacional, sin perder credibilidad
+- **Extensión**: 700–1,000 palabras
+- **Estructura**: híbrida — lead fuerte, subtítulos H2/H3, bloque de datos al cierre de sección si aplica
+- **Español**: mexicano (celular, computadora, etc.)
+- **Fuente**: reescribir todo con palabras propias; citas breves en `<blockquote>` solo si aportan
+- **Fuentes**: enlaces inline en el cuerpo (`rel="noopener" target="_blank"`)
+- **Titulares**: estilo ANXiNA — gancho natural, no clickbait vacío (ej. “Ni media hora nos duró el Steam Controller”)
+
+## Entrega (siempre incluir)
+
+```
+TÍTULO / META DESCRIPCIÓN (150–160 chars) / PERMALINK / CATEGORÍA / ETIQUETAS / IMAGEN SUGERIDA / REDES SOCIALES
+--- HTML PARA BLOGGER ---
+```
+
+- **REDES SOCIALES**: texto corto y con gancho (2–4 líneas) para compartir, con 2–4 hashtags. Va dentro del comentario de metadatos, no en el HTML de Blogger. Debe **terminar siempre** con: `👉 Si quieres ver el post completo visita ANXiNA.xyz`
+
+Guardar como `.html` en la raíz del proyecto. Detalle completo en `POST-GUIDE.md`.
+
+## HTML Blogger
+
+- Etiquetas: `<p>`, `<h2>`, `<h3>`, `<strong>`, `<em>`, `<ul>`, `<li>`, `<blockquote>`, `<hr>`, `<a>`
+- **Tema oscuro ANXiNA**: nunca fondos claros (`#f4f4f4`). Usar cajas con `border-left:4px solid #6eb5ff; background:rgba(255,255,255,0.08); color:inherit; border-radius:0 6px 6px 0`
+- **Cierre obligatorio** (último párrafo del post):
+
+```html
+<p>Las cosas como son. Y en cultura digital… son Anxina.</p>
+```
