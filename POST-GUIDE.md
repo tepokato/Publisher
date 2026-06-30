@@ -25,6 +25,9 @@ Referencia persistente para redactar posts de [ANXiNA](https://www.anxina.xyz/) 
 | Fuentes | Enlaces inline en el cuerpo del texto |
 | Titulares | Estilo ANXiNA: gancho natural, personal, sin clickbait vacío |
 | Cifras | Lista, caja destacada o tabla según lo que lea mejor |
+| Emojis | **Nunca** en el cuerpo del post (delatan texto generado por IA). Cajas, títulos y listas van sin emoji |
+| Monedas | No convertir a dólares por defecto. Solo hacerlo cuando el dato lo pida; en ese caso, buscar el precio actualizado en internet |
+| Terminología | Nunca "reseñador"; usar "analista" o "crítico" según el más viable |
 
 ### Categorías habituales
 
@@ -55,17 +58,19 @@ Versión corta y con gancho del post, para Facebook / X / Instagram. Va **dentro
 - **Terminar siempre** con esta línea exacta:
 
 ```
-👉 Si quieres ver el post completo visita ANXiNA.xyz
+👉 Lee el post completo visita ANXiNA.xyz
 ```
 
 **Ejemplo:**
 
 ```
-🔋 Brasil ya vende el DOBLE de autos eléctricos que México… y la brecha crece.
+Brasil ya vende el DOBLE de autos eléctricos que México… y la brecha crece.
 ¿Puede Olinia, el eléctrico hecho en México, cambiar el juego?
 #Electromovilidad #Olinia #AutosElectricos #Mexico
-👉 Si quieres ver el post completo visita ANXiNA.xyz
+👉 Lee el post completo visita ANXiNA.xyz
 ```
+
+> Nota: los emojis están prohibidos en el **cuerpo del post**. La línea de cierre de **redes sociales** conserva el `👉` porque es una convención fija de marca y va en el comentario de metadatos, no en el HTML que se publica.
 
 ### Permalink (URL personalizada en Blogger)
 
@@ -88,12 +93,18 @@ El archivo se guarda en esta carpeta con nombre descriptivo, por ejemplo: `brasi
 
 ---
 
-## Cierre obligatorio
+## Cierre obligatorio (firma)
 
-**Siempre** como último párrafo del cuerpo del post (después de fuentes o nota final):
+La firma es **siempre el último párrafo del post** y va **pegada al párrafo de conclusión**, sin que el poll ni las fuentes queden en medio (si no, la firma se lee fuera de lugar). Orden correcto al final del post:
+
+```
+… contenido → poll (si aplica) → fuentes / nota final → párrafo de conclusión → firma
+```
+
+Firma exacta:
 
 ```html
-<p>Las cosas como son. Y en cultura digital… son Anxina.</p>
+<p>Las cosas como son. Y en cultura digital: Anxina.</p>
 ```
 
 ---
@@ -119,7 +130,7 @@ Evitar `<div>` con clases personalizadas (Blogger puede ignorarlas). Los estilos
 
 ```html
 <div style="border-left:4px solid #6eb5ff;background:rgba(255,255,255,0.08);padding:16px 20px;margin:24px 0;border-radius:0 6px 6px 0;color:inherit;">
-<p style="margin:0;color:inherit;"><strong>⚡ El dato:</strong> Texto aquí.</p>
+<p style="margin:0;color:inherit;"><strong>El dato:</strong> Texto aquí.</p>
 </div>
 ```
 
@@ -127,7 +138,7 @@ Evitar `<div>` con clases personalizadas (Blogger puede ignorarlas). Los estilos
 
 ```html
 <div style="border-left:4px solid #6eb5ff;background:rgba(255,255,255,0.08);padding:16px 20px;margin:24px 0;border-radius:0 6px 6px 0;color:inherit;">
-<p style="margin:0 0 8px 0;color:inherit;"><strong>📊 Título del bloque</strong></p>
+<p style="margin:0 0 8px 0;color:inherit;"><strong>Título del bloque</strong></p>
 <ul style="margin:0;padding-left:20px;color:inherit;">
 <li style="color:inherit;"><strong>Item:</strong> valor</li>
 </ul>
@@ -186,11 +197,38 @@ IMAGEN SUGERIDA: ...
 
 <p><em>Información adicional en <a href="..." rel="noopener" target="_blank">Fuente</a>.</em></p>
 
-<p>Las cosas como son. Y en cultura digital… son Anxina.</p>
+<p>Párrafo de conclusión que cierra el tema.</p>
+
+<p>Las cosas como son. Y en cultura digital: Anxina.</p>
 ```
 
 ---
 
-## Archivo de referencia
+## Sondeo / encuesta (interacción) — caso especial
 
-Post de ejemplo en este repositorio: `brasil-electromovilidad-olinia-anxina.html`
+Para subir la interacción, los posts que lo ameriten pueden incluir **un sondeo** al final (antes de fuentes/cierre). Es la **única excepción** a las reglas de “solo etiquetas permitidas / sin `<div>` / sin JS”: el sondeo sí usa `<div>`, estilos inline y un `<script>`.
+
+- **Bloque reutilizable:** `poll-snippet.html` (copiar/pegar y editar).
+- **Conteo:** [Abacus](https://jasoncameron.dev/abacus/) — gratis, sin registro, con CORS. Los totales son **globales**; cada lector vota una vez por dispositivo (se guarda en `localStorage`).
+- **Tema oscuro:** ya viene con la caja `#6eb5ff` y fondo translúcido de ANXiNA.
+
+### Reglas al insertarlo
+
+1. `data-anxina-poll="..."` debe ser **único por post** (ej. `gta6-fecha-2026`). Si se repite, los posts comparten votos.
+2. No cambiar `data-ns="anxina.xyz"` (namespace del contador).
+3. Cada `<button>` lleva un `data-key` corto, **sin acentos ni espacios** y único dentro del sondeo.
+4. Mínimo 2 opciones. Al último botón déjale `margin:0`.
+5. El `<script>` va **minificado en una sola línea** a propósito (sobrevive a la opción “Convertir saltos de línea” de Blogger). No desformatear.
+
+### Blogger
+
+- Pegar en la vista **HTML** y **no** volver a “Redacción/Compose” (Blogger reescribe el HTML y puede romper el `<script>`).
+- Probar el voto una vez publicado: al votar deben aparecer barras con porcentajes y el total.
+
+---
+
+## Archivos de referencia
+
+- Post de ejemplo: `brasil-electromovilidad-olinia-anxina.html`
+- Post con sondeo integrado: `ps6-precio-rampocalipsis-sony-anxina.html`
+- Plantilla de sondeo: `poll-snippet.html`

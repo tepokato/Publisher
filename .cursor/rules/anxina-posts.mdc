@@ -13,6 +13,9 @@ Este proyecto redacta posts para https://www.anxina.xyz/. El usuario provee un `
 - **Extensión**: 700–1,000 palabras
 - **Estructura**: híbrida — lead fuerte, subtítulos H2/H3, bloque de datos al cierre de sección si aplica
 - **Español**: mexicano (celular, computadora, etc.)
+- **Sin emojis**: nunca usar emojis en el cuerpo del post (delatan texto generado por IA). Aplica a párrafos, títulos, cajas y listas. Única excepción: el `👉` de la línea fija de redes sociales (va en metadatos, no en el HTML publicado).
+- **Monedas**: no convertir a dólares por defecto. Solo convertir cuando el dato lo pida y, en ese caso, buscar el precio/valor actualizado en internet.
+- **Terminología**: nunca usar "reseñador". En su lugar, usar "analista" o "crítico" según el que sea más viable en el contexto.
 - **Fuente**: reescribir todo con palabras propias; citas breves en `<blockquote>` solo si aportan
 - **Fuentes**: enlaces inline en el cuerpo (`rel="noopener" target="_blank"`)
 - **Titulares**: estilo ANXiNA — gancho natural, no clickbait vacío (ej. “Ni media hora nos duró el Steam Controller”)
@@ -24,7 +27,7 @@ TÍTULO / META DESCRIPCIÓN (150–160 chars) / PERMALINK / CATEGORÍA / ETIQUET
 --- HTML PARA BLOGGER ---
 ```
 
-- **REDES SOCIALES**: texto corto y con gancho (2–4 líneas) para compartir, con 2–4 hashtags. Va dentro del comentario de metadatos, no en el HTML de Blogger. Debe **terminar siempre** con: `👉 Si quieres ver el post completo visita ANXiNA.xyz`
+- **REDES SOCIALES**: texto corto y con gancho (2–4 líneas) para compartir, con 2–4 hashtags. Va dentro del comentario de metadatos, no en el HTML de Blogger. Debe **terminar siempre** con: `👉 Lee el post completo visita ANXiNA.xyz`
 
 Guardar como `.html` en la raíz del proyecto. Detalle completo en `POST-GUIDE.md`.
 
@@ -32,8 +35,8 @@ Guardar como `.html` en la raíz del proyecto. Detalle completo en `POST-GUIDE.m
 
 - Etiquetas: `<p>`, `<h2>`, `<h3>`, `<strong>`, `<em>`, `<ul>`, `<li>`, `<blockquote>`, `<hr>`, `<a>`
 - **Tema oscuro ANXiNA**: nunca fondos claros (`#f4f4f4`). Usar cajas con `border-left:4px solid #6eb5ff; background:rgba(255,255,255,0.08); color:inherit; border-radius:0 6px 6px 0`
-- **Cierre obligatorio** (último párrafo del post):
+- **Firma de cierre obligatoria**: debe ser el **último párrafo del post** y ir **pegada** al párrafo de conclusión (sin poll ni fuentes en medio). Orden correcto: …contenido → poll → fuentes → párrafo de conclusión → firma.
 
 ```html
-<p>Las cosas como son. Y en cultura digital… son Anxina.</p>
+<p>Las cosas como son. Y en cultura digital: Anxina.</p>
 ```
