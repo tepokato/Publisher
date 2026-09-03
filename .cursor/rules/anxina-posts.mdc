@@ -5,20 +5,21 @@ alwaysApply: true
 
 # Posts ANXiNA → Blogger
 
-Este proyecto redacta posts para https://www.anxina.xyz/. El usuario provee un `.txt` con información; entrega un `.html` listo para pegar en Blogger (vista HTML).
+Este proyecto redacta posts para https://www.anxina.xyz/. Cada post vive en **su propia carpeta** en la raíz: ahí van el archivo de información y el `.html` listo para pegar en Blogger (vista HTML).
 
 ## Editorial
 
 - **Tono**: cercano y conversacional, sin perder credibilidad
-- **Extensión**: 700–1,000 palabras
-- **Estructura**: híbrida — lead fuerte, subtítulos H2/H3, bloque de datos al cierre de sección si aplica
-- **Español**: mexicano (celular, computadora, etc.)
+- **Extensión**: 450–600 palabras (apuntar a ~500; máximo 650 si hay muchos datos)
+- **Estructura**: lead corto, 2 o 3 H2, una caja de datos si aporta. Cortar relleno, no recitar el lead en el cierre
+- **Español**: latinoamericano neutro. Conversacional, con `tú` (nunca *vos* ni *vosotros*). Celular y computadora sí; *neta, chido, andabas, le entras, te tocó, anaquel, lentes de ver* no. Tampoco *móvil/ordenador/vosotros* (España). Detalle en `POST-GUIDE.md` → **Español latinoamericano neutro**.
 - **Sin emojis**: nunca usar emojis en el cuerpo del post (delatan texto generado por IA). Aplica a párrafos, títulos, cajas y listas. Única excepción: el `👉` de la línea fija de redes sociales (va en metadatos, no en el HTML publicado).
 - **Monedas**: no convertir a dólares por defecto. Solo convertir cuando el dato lo pida y, en ese caso, buscar el precio/valor actualizado en internet.
 - **Terminología**: nunca usar "reseñador". En su lugar, usar "analista" o "crítico" según el que sea más viable en el contexto.
 - **Fuente**: reescribir todo con palabras propias; citas breves en `<blockquote>` solo si aportan
 - **Fuentes**: enlaces inline en el cuerpo (`rel="noopener" target="_blank"`)
-- **Titulares**: estilo ANXiNA — gancho natural, no clickbait vacío (ej. “Ni media hora nos duró el Steam Controller”)
+- **Titulares**: estilo ANXiNA — gancho natural, personal, sin clickbait vacío (ej. “¡Valve se filtró sola! El unboxing del Steam Frame apareció en su propio cliente”)
+- **Voz (anti-IA)**: hablarle al lector (`tú` / `nosotros`), opinión también a mitad del post, ritmo hablado (*pues…*, *o sea*, *y ojo*) sin disfraz. Prohibido apilar “no es X, es Y”, tríadas, rayas em y cierres que recitan el título. Muestra de voz: el post del Steam Frame. Detalle en `POST-GUIDE.md` → **Cómo suena ANXiNA**.
 
 ## Entrega (siempre incluir)
 
@@ -29,7 +30,7 @@ TÍTULO / META DESCRIPCIÓN (150–160 chars) / PERMALINK / CATEGORÍA / ETIQUET
 
 - **REDES SOCIALES**: texto corto y con gancho (2–4 líneas) para compartir, con 2–4 hashtags. Va dentro del comentario de metadatos, no en el HTML de Blogger. Debe **terminar siempre** con: `👉 Lee el post completo visita ANXiNA.xyz`
 
-Guardar como `.html` en la raíz del proyecto. Detalle completo en `POST-GUIDE.md`.
+Crear una carpeta por post (slug descriptivo, sin acentos) y guardar ahí el `.html` junto al archivo de información. Detalle completo en `POST-GUIDE.md`.
 
 ## HTML Blogger
 

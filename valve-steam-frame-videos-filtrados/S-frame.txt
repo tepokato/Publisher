@@ -1,0 +1,25 @@
+https://www.theverge.com/games/982406/valve-steam-frame-setup-unboxing-leaked-videos
+Watch Valve set up the Steam Frame in its own leaked videos
+Leaked demonstrations show how to use the Steam Frame with its wireless dongle and accessories.
+Valve just leaked several new videos showing the Steam Frame’s unboxing, setup process, and various accessories. The videos apparently appeared on the ARM Steam client following an update, but they were “quickly pulled after that,” according to the Steam Hardware Updates account on X.
+
+The Steam Frame is Valve’s virtual-reality headset that can stream games from a PC or play them locally. Valve first took the wraps off the headset last year, and it offers LCD screens with 2160 x 2160 resolution per eye, a Snapdragon 8 Gen 3 chip, and an up to 110-degree field of view. But these leaked videos offer a closer look at what it might be like to unbox and set up the new device.
+As shown in one of the videos, Valve shows how you can use the Steam Frame’s “pivot arms” to adjust the position of the headset, as well as how to insert a spacer beneath the face gasket if you wear glasses. Another video details how you can plug the wireless dongle into your PC or Steam Machine to stream games.
+There’s an “Ergonomic Accessories Kit” as well, which includes hand straps to keep your hands attached to the controller, along with a top head strap to “improve weight distribution and provide “extra headset stability.” The kit also has an extended light blocker designed for people with smaller noses, as it can better seal the area between their face and the Steam Frame. You can find the links to all of Valve’s leaked videos from this post on Reddit.
+
+Though Valve previously said that it plans to release the Steam Frame this summer, it hasn’t yet shared an exact launch date. Still, that timeframe, these setup videos, and a recent 13-ton shipment of VR headsets could all indicate that a launch is right around the corner.
+
+https://www.tomsguide.com/computing/vr-ar/steam-frame-unboxing-and-tutorial-videos-just-leaked-release-could-be-imminent
+Steam Frame unboxing and tutorial videos just leaked — release could be imminent
+Leaked videos show nearly every aspect of Valve's latest VR headset
+Steam Frame tutorial videos just got leaked on Reddit, potentially hinting at an imminent release. The videos in question show an unboxing, how to sign in, how to adjust the device’s strap, what accessories it comes with, and more.
+
+For the uninitiated, the Steam Frame is Valve’s answer to headsets like the Meta Quest 3. It features a Snapdragon ARM processor, an LCD with 2160 x 2160 resolution per eye, 16GB of DDR5 RAM, a refresh rate up to 120Hz, and pancake optic lenses. Along with eye-tracking, it also has camera passthrough and a 110-degree field of view (FOV). Naturally, it runs on SteamOS, effectively making it a VR version of the Steam Deck.
+
+With the basics out of the way, here are the leaked Steam Frame videos.
+This first video (posted on X by @HardwareSteam) is an unboxing, where we get to see what you get with the Frame. In addition to the actual headset, you get a pair of controllers, a spacer, a wireless adapter, an information booklet, and a USB-C cable. This video then shows how to initially set up the device, which ships in a power-saving mode.
+The wireless adapter lets you connect to a Steam Machine or compatible PC. You'll need to log in to the same Steam account on both the headset and your PC, plug the adapter in, and Steam will guide you through the setup process. Games that are available for streaming will appear in your headset's Steam library.
+
+add these to the post
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">STEAM FRAME UPDATE<br><br>Official Steam Frame wireless adapter guide by Valve <a href="https://t.co/qveztHFLLq">pic.twitter.com/qveztHFLLq</a></p>&mdash; Steam Hardware Updates (@HardwareSteam) <a href="https://x.com/HardwareSteam/status/2090063261722882491?ref_src=twsrc%5Etfw">August 19, 2026</a></blockquote> <script async src="https://platform.x.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">STEAM FRAME UPDATE<br><br>OFFICIAL STEAM FRAME UNBOXING VIDEO BY VALVE <a href="https://t.co/eqD3ztfHVz">pic.twitter.com/eqD3ztfHVz</a></p>&mdash; Steam Hardware Updates (@HardwareSteam) <a href="https://x.com/HardwareSteam/status/2090061615462846552?ref_src=twsrc%5Etfw">August 19, 2026</a></blockquote> <script async src="https://platform.x.com/widgets.js" charset="utf-8"></script>

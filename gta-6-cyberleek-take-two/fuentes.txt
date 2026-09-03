@@ -1,0 +1,122 @@
+GTA 6 / Cyberleek / Take-Two — extracto de fuentes
+Fecha de extracción: 21 agosto 2026
+Post folder: gta-6-cyberleek-take-two
+
+FUENTES PEDIDAS
+- Bloomberg (21 ago 2026, newsletter): https://www.bloomberg.com/news/newsletters/2026-08-21/rockstar-rattled-as-grand-theft-auto-vi-leaks-again
+  Paywall / timeout al scrapear. Datos de Bloomberg citados vía Game Developer (21 ago 2026):
+  https://www.gamedeveloper.com/business/rockstar-subpoenas-microsoft-and-discord-in-bid-to-halt-extensive-grand-theft-auto-vi-leak
+- Kotaku (21 ago 2026, update 12:21 p.m. ET): https://kotaku.com/take-two-subpoenas-microsoft-and-discord-records-related-to-spread-of-gta-6-leaks-2000726633
+- Mashable (actualizado 21 ago 2026, 3:00 p.m. ET): https://mashable.com/entertainment/grand-theft-auto-vi-cyberleek-everything-leaked-so-far
+  Complemento (filings “stolen content” / GitHub): https://sea.mashable.com/tech/54001/gta-6-makers-subpoena-microsoft-discord-and-github-over-stolen-content
+
+NO embeber ni enlazar clips. Mashable tampoco lo hace. El post puede describir qué tipo de material circula, no redirigir a la filtración.
+
+--- QUÉ PASÓ ---
+
+Alguien o un grupo bajo el alias Cyberleek / CyberLeek lleva días (clips desde ~18 ago 2026) soltando gameplay, mapas y capturas de Grand Theft Auto VI, un juego que Rockstar no ha mostrado en gameplay oficial. Es el primer vistazo de jugabilidad fuera del estudio, si los clips son reales.
+
+Lanzamiento oficial: 19 de noviembre de 2026, PS5 y Xbox Series X/S.
+Netflix: “extended look” / trailer grande en menos de una semana desde el 21 ago (Mashable: “less than a week”; Game Developer: Take-Two no va a mover ese reveal por las filtraciones).
+
+Rockstar no ha comentado en público. Take-Two tampoco (al cierre de estas notas).
+
+--- TAKE-TWO VA A TRIBUNAL (KOTAKU + MASHABLE) ---
+
+20 agosto 2026: Take-Two Interactive (dueña de Rockstar) presenta peticiones de citación DMCA en el Southern District of New York. Pide que el tribunal ordene a Microsoft y a Discord entregar registros. (Kotaku corrigió el titular: no es que ya las hayan “subpoenaed” ellas solas; piden a la corte que lo ordene.)
+
+Plazo pedido: 4 de septiembre de 2026.
+
+Qué buscan (texto de la petición, Kotaku):
+“The copyrighted material includes but is not limited to audiovisual content, artwork, images, dialogue, or other creative elements.”
+Declaración jurada: la citación DMCA es para identificar al infractor o infractores y usar esa info solo para proteger derechos de Take-Two.
+
+Microsoft (dueña de GitHub y de OneDrive/Xbox):
+- Todos los registros internos e investigativos de Microsoft sobre la persona “cyberleek”, suficientes para identificar usuario(s) / entidad.
+- Hay un repositorio de GitHub donde se publicó material infractor. Take-Two pide deshabilitar el repo entero: “The entire repository must be completely disabled, there are no remedies to rectify this clear case of infringement.” (Mashable SEA). A la hora de esa nota, el repo nombrado seguía online.
+- Cuentas de usuarios que fueron miembros de ciertos servidores de Discord del 1 de junio de 2026 a la fecha; telemetría/dispositivo si hay artefactos de herramientas/archivos; por cuenta: ID, email de registro, IPs de registro y último login, teléfono, conexiones (Google/Xbox/etc.), device IDs (MachineGuid/MSA), contenido de GTA / Rockstar / Cyberleek en OneDrive.
+
+Discord (mismo plazo), servidores/cuentas nombrados (Kotaku):
+- CYBERLEEK
+- CINEMATICROCKSTAR
+- Surfer24k™ (+ handles de reemplazo cyberleek_west, surwest)
+- Ødyssey.gg
+- “! Odyssey” public brand guild (discord.gg/odyssey)
+- servidor de editores de DarkViperAU (discord.gg/darkviperau)
+
+DarkViperAU = Matthew “Matt” Judge, streamer de GTA 5 (Twitch/YouTube). En X: “They’re asking for my discord info, I’m mentioned by name.” Dice que no sabe nada, que ese no es su Discord de editores, que no hay clips de las leaks en ninguno de sus Discords. Especula que mencionó “he can’t drive” y que el leaker escribió “Cyberleek can’t drive” en clips recientes; quizá visitó su Discord. Rockstar no le ha escrito. “Everyone is talking about these leaks, I am not special.”
+
+Mashable (update 21 ago): los filings hablan de “stolen content” → Take-Two trata al menos parte del material como genuino / robado, no como rumor. Piden también retirada de material que viola copyright.
+
+Takedown a Discord (citado en Mashable SEA): el post tiene gameplay no autorizado de GTA VI no lanzado; reproduce assets con copyright; se presenta como leak genuino; distribución = reproducción y divulgación no autorizada.
+
+--- BLOOMBERG (vía Game Developer; el original está detrás de paywall) ---
+
+Título: “Rockstar rattled as Grand Theft Auto VI leaks again” (21 ago 2026).
+
+Puntos atribuidos a Bloomberg:
+- Take-Two / Rockstar no tienen información sobre quién es Cyberleek ni cómo accedió al material.
+- El mood interno: empleados y líderes “angry”.
+- Segunda brecha grande de ciberseguridad de Rockstar. Tras la primera (el leak masivo de 2022 de GTA VI / fuentes internas), endurecieron seguridad, incluido un mandato de volver a oficina para híbridos y remotos. Algunos trabajadores están frustrados de que haya un segundo hack después de esos cambios controvertidos.
+- No van a cambiar el reveal grande con Netflix por esto.
+- Game Developer añade (revisaron el sitio de Cyberleek): manifiesto / “commandments” contra preórdenes digitales, DLC de día uno / contenido terminado detrás de paywall, preservación de juegos online. Cierra amenazando a “all big corpo” de que pueden ser el siguiente blanco.
+
+Contexto 2022 (para el post, no está en las 3 URLs pero es el “again” del titular de Bloomberg): en septiembre 2022 un menor filtró ~90 videos de builds tempranos de GTA VI. Rockstar confirmó entonces que era material real de desarrollo.
+
+--- QUÉ SE HA FILTRADO (MASHABLE, 9 ítems al cierre; no embeber) ---
+
+Mashable: no verifica autenticidad al 100%; no embebe. El autor, que ha jugado casi todos los GTA, los encuentra convincentes (movimiento, NPCs). Tras los filings, Take-Two habla de contenido robado.
+
+1. Map sneak peek 1: recorte del mapa; lugar “Dalton Island”.
+2. Map sneak peek 2: recorte; Tequesta Retreat, Gloriana Key, Catalan Key.
+3. Basketball: Jason Duval tirando al aro una y otra vez.
+4. Full map: captura del mapa completo (alegada).
+5. Random video 1: Jason maneja un rato y golpea a un camionero.
+6. Taser: maneja, le quita el taser a un guardia, lo usa, lo patea en el piso.
+7. Junkies: droga de curación “Zombix”; tooltip: el efecto se debilita si se usa demasiado.
+8. Plane: Jason vuela sobre Vice City; se ve mucho del mundo. Al final, quien juega dispara la palabra “LEEK” en una pared → sugiere build jugable, no un reel de marketing.
+9. Hypercar part 1: Jason en un deportivo de gama alta por Vice City.
+
+Mashable: CyberLeek pone encuestas en su web para votar (pagando en cripto) qué filtrar después. Memecoin. Primeros videos ~18 ago; Mashable SEA: seis videos de gameplay + tres previews de mapa.
+
+PC Gamer (contexto extra, 20 ago): el “LEEK” en la pared es difícil de explicar como clip de un showcase de Netflix; apunta a que el leaker controla una build. No es prueba absoluta (podría haber IA), pero los strikes rápidos de copyright empujan a que es real.
+
+--- QUIÉN ES CYBERLEEK ---
+
+Identidad desconocida (individuo o grupo).
+Sitio con manifiesto: protesta contra preórdenes digitales, DLC “falso” / contenido ya listo detrás de paywall, prácticas de publishers.
+También usa las leaks para empujar un memecoin (Kotaku, Mashable).
+Amenaza con seguir y con ir contra otros publishers (Game Developer).
+Comunica sobre todo por web y Telegram (Mashable SEA); GitHub del takedown no está claro si es del leaker.
+
+--- CALENDARIO ---
+
+- ~18 ago 2026: primeros clips Cyberleek
+- 19–20 ago: mapa, basketball, taser, Zombix, avión “LEEK”, hypercar
+- 20 ago: Take-Two presenta las peticiones DMCA (SDNY)
+- 21 ago: Kotaku, Bloomberg newsletter, Mashable update; DarkViperAU responde
+- Semana del 21 ago: reveal extendido en Netflix (no se mueve, según Bloomberg)
+- 22 ago 2026: comunicado atribuido al sitio de Cyberleek (dead man’s switch).
+  Insider Gaming: https://insider-gaming.com/gta-6-leaker-threatens-give-build-millions-gamers/
+  Tbreak: https://tbreak.com/gta-6-leaker-threatens-release-full-build-millions-gamers/
+  Claim: copias de la build en varios lados; cada mañana cancela a mano la salida; si “misses a morning” (arresto, etc.) las cancelaciones se acaban solas; “within days” GTA 6 en PCs de “millions of gamers”; “tread lightly”.
+  Wolf’s Gaming Blog publicó y el mismo día lo marcó Debunked: “the threat was faked by some other folk and spread around”.
+  https://wolfsgamingblog.com/2026/08/22/cyberleek-threatens-to-release-gta-6-if-they-are-caught/
+  Kotaku / Bloomberg / The Verge no lo han confirmado (al 23 ago 2026). Tratarlo como afirmación, no como hecho técnico.
+- 27 ago 2026: Grand Theft Auto VI: An Extended Look (Netflix 3 p.m. ET; YouTube/sitio 9 p.m. ET)
+- 4 sep 2026: plazo pedido a Microsoft y Discord
+- 19 nov 2026: launch GTA VI consolas
+
+--- ÁNGULOS PARA EL POST ANXiNA ---
+
+- Rockstar otra vez: 2022 fue un menor con 90 videos; ahora, a tres meses del launch y a días del Netflix, alguien con (parece) una build jugable.
+- Take-Two no confirma en un comunicado; lo hace en la corte llamándolo “stolen content”.
+- La red es ancha: Discord de un streamer que dice no tener nada que ver.
+- El leaker se vende como cruzada gamer y cobra en memecoin. Las dos cosas a la vez.
+- El reveal de Netflix sigue. El secreto, no.
+
+Cifras / nombres a no inventar:
+Jason Duval (protagonista), Vice City / Leonida, Zombix, Quanta NO aplica (eso era Steam Frame).
+Take-Two, Rockstar, Microsoft, Discord, GitHub, DarkViperAU / Matthew Judge.
+No convertir precios (no hay).
+No embeber leaks.
